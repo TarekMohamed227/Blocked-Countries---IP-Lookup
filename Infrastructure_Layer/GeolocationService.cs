@@ -1,8 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+<<<<<<< HEAD
 using System.Net;
 using System.Net.Http.Json;
+=======
+>>>>>>> f935c37 (Updated API functionality and fixed bugs)
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
@@ -27,6 +30,7 @@ namespace Infrastructure_Layer
         {
             try
             {
+<<<<<<< HEAD
                 // ✅ Construct the correct API URL
                 string requestUrl = $"{_baseUrl}?apiKey={_apiKey}&ip={ipAddress}";
                 Console.WriteLine($"[DEBUG] Requesting: {requestUrl}");
@@ -35,6 +39,16 @@ namespace Infrastructure_Layer
                 HttpResponseMessage response = await _httpClient.GetAsync(requestUrl);
 
                 // ✅ Log HTTP status codes
+=======
+                //  Construct the correct API URL
+                string requestUrl = $"{_baseUrl}?apiKey={_apiKey}&ip={ipAddress}";
+                Console.WriteLine($"[DEBUG] Requesting: {requestUrl}");
+
+                //  Make the API request
+                HttpResponseMessage response = await _httpClient.GetAsync(requestUrl);
+
+                //  Log HTTP status codes
+>>>>>>> f935c37 (Updated API functionality and fixed bugs)
                 Console.WriteLine($"[DEBUG] Response Status Code: {response.StatusCode}");
 
                 if (!response.IsSuccessStatusCode)
@@ -44,13 +58,21 @@ namespace Infrastructure_Layer
                     return "API_ERROR";
                 }
 
+<<<<<<< HEAD
                 // ✅ Read response as JSON object
+=======
+                //  Read response as JSON object
+>>>>>>> f935c37 (Updated API functionality and fixed bugs)
                 string responseContent = await response.Content.ReadAsStringAsync();
                 Console.WriteLine($"[DEBUG] API Response: {responseContent}");
 
                 var jsonResponse = System.Text.Json.JsonDocument.Parse(responseContent).RootElement;
 
+<<<<<<< HEAD
                 // ✅ Extract "country_code2" from JSON
+=======
+                //  Extract "country_code2" from JSON
+>>>>>>> f935c37 (Updated API functionality and fixed bugs)
                 if (jsonResponse.TryGetProperty("country_code2", out var countryCodeElement))
                 {
                     string countryCode = countryCodeElement.GetString();

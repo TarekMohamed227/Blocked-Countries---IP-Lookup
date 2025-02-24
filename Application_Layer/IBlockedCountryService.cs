@@ -13,10 +13,18 @@ namespace Application_Layer
         Task<bool> UnblockCountryAsync(string countryCode);
         List<BlockedCountry> GetBlockedCountries();
         Task<bool> IsIPBlockedAsync(string ipAddress);
+<<<<<<< HEAD
 
         // ✅ Add these missing methods
         bool IsCountryBlocked(string countryCode);
         void LogBlockedAttempt(string ip, string countryCode, bool blocked, string userAgent);
         List<BlockedAttemptLog> GetBlockedAttempts();
+=======
+       
+        void LogBlockedAttempt(string ip, string countryCode, bool blocked, string userAgent);
+        List<BlockedAttemptLog> GetBlockedAttempts();
+        void RemoveExpiredBlocks();
+
+>>>>>>> f935c37 (Updated API functionality and fixed bugs)
     }
 }

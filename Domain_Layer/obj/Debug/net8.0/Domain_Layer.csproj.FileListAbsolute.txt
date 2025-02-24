@@ -1,0 +1,11 @@
+C:\Users\AlexSoft\source\repos\Countries\Domain_Layer\bin\Debug\net8.0\Domain_Layer.deps.json
+C:\Users\AlexSoft\source\repos\Countries\Domain_Layer\bin\Debug\net8.0\Domain_Layer.dll
+C:\Users\AlexSoft\source\repos\Countries\Domain_Layer\bin\Debug\net8.0\Domain_Layer.pdb
+C:\Users\AlexSoft\source\repos\Countries\Domain_Layer\obj\Debug\net8.0\Domain_Layer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AlexSoft\source\repos\Countries\Domain_Layer\obj\Debug\net8.0\Domain_Layer.AssemblyInfoInputs.cache
+C:\Users\AlexSoft\source\repos\Countries\Domain_Layer\obj\Debug\net8.0\Domain_Layer.AssemblyInfo.cs
+C:\Users\AlexSoft\source\repos\Countries\Domain_Layer\obj\Debug\net8.0\Domain_Layer.csproj.CoreCompileInputs.cache
+C:\Users\AlexSoft\source\repos\Countries\Domain_Layer\obj\Debug\net8.0\Domain_Layer.dll
+C:\Users\AlexSoft\source\repos\Countries\Domain_Layer\obj\Debug\net8.0\refint\Domain_Layer.dll
+C:\Users\AlexSoft\source\repos\Countries\Domain_Layer\obj\Debug\net8.0\Domain_Layer.pdb
+C:\Users\AlexSoft\source\repos\Countries\Domain_Layer\obj\Debug\net8.0\ref\Domain_Layer.dll
