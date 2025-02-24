@@ -1,0 +1,96 @@
+[
+  {
+    "ContainingType": "Blocked_Countries.Controllers.BlockedCountriesController",
+    "Method": "BlockCountry",
+    "RelativePath": "api/BlockedCountries/block",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "countryCode",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "durationMinutes",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Blocked_Countries.Controllers.BlockedCountriesController",
+    "Method": "UnblockCountry",
+    "RelativePath": "api/BlockedCountries/block/{countryCode}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "countryCode",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Blocked_Countries.Controllers.BlockedCountriesController",
+    "Method": "GetBlockedCountries",
+    "RelativePath": "api/BlockedCountries/blocked",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Blocked_Countries.Controllers.IpController",
+    "Method": "IsBlocked",
+    "RelativePath": "api/Ip/check-block",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Blocked_Countries.Controllers.IpController",
+    "Method": "LookupIP",
+    "RelativePath": "api/Ip/lookup",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ipAddress",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Blocked_Countries.Controllers.LogsController",
+    "Method": "GetBlockedAttempts",
+    "RelativePath": "api/logs/blocked-attempts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

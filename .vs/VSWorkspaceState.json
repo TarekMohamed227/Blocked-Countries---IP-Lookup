@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Application_Layer",
+    "\\Blocked-Countries",
+    "\\Blocked-Countries\\Controllers",
+    "\\Domain_Layer",
+    "\\Infrastructure_Layer"
+  ],
+  "SelectedNode": "\\Blocked-Countries\\Controllers\\LogsController.cs",
+  "PreviewInSolutionExplorer": false
+}
