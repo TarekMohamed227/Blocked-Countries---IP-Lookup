@@ -1,0 +1,12 @@
+C:\Users\AlexSoft\source\repos\Countries\Infrastructure_Layer\bin\Debug\net8.0\Infrastructure_Layer.deps.json
+C:\Users\AlexSoft\source\repos\Countries\Infrastructure_Layer\bin\Debug\net8.0\Infrastructure_Layer.dll
+C:\Users\AlexSoft\source\repos\Countries\Infrastructure_Layer\bin\Debug\net8.0\Infrastructure_Layer.pdb
+C:\Users\AlexSoft\source\repos\Countries\Infrastructure_Layer\obj\Debug\net8.0\Infrastructure_Layer.csproj.AssemblyReference.cache
+C:\Users\AlexSoft\source\repos\Countries\Infrastructure_Layer\obj\Debug\net8.0\Infrastructure_Layer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AlexSoft\source\repos\Countries\Infrastructure_Layer\obj\Debug\net8.0\Infrastructure_Layer.AssemblyInfoInputs.cache
+C:\Users\AlexSoft\source\repos\Countries\Infrastructure_Layer\obj\Debug\net8.0\Infrastructure_Layer.AssemblyInfo.cs
+C:\Users\AlexSoft\source\repos\Countries\Infrastructure_Layer\obj\Debug\net8.0\Infrastructure_Layer.csproj.CoreCompileInputs.cache
+C:\Users\AlexSoft\source\repos\Countries\Infrastructure_Layer\obj\Debug\net8.0\Infrastructure_Layer.dll
+C:\Users\AlexSoft\source\repos\Countries\Infrastructure_Layer\obj\Debug\net8.0\refint\Infrastructure_Layer.dll
+C:\Users\AlexSoft\source\repos\Countries\Infrastructure_Layer\obj\Debug\net8.0\Infrastructure_Layer.pdb
+C:\Users\AlexSoft\source\repos\Countries\Infrastructure_Layer\obj\Debug\net8.0\ref\Infrastructure_Layer.dll
